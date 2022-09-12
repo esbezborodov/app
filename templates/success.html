@@ -3,6 +3,6 @@
 {% block content %}
 <img src="{{ url_for('static', filename='uareamazing.jpg') }}" class="img-fluid" alt="uareamazing.jpg">
 <div class="mt-3"></div>
-<a href="{{ url_for('logout') }}">Press here to logout</a>
+<a href="{{ url_for('auth.logout') }}">Press here to logout</a>
 </div>
 {% endblock %}
