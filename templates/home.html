@@ -2,6 +2,11 @@
 {% block title %}Home Page{% endblock %}
 {% block content %}
     <h1>Salami Club Project</h1>
+    <style>
+        body {
+            background-color: #C3CDCD;
+        }
+    </style>
     <a href="{{ url_for('auth.login') }}">Salami Login Page</a><br>
     <a href="{{ url_for('auth.register') }}">Salami Register Page</a><br>
 {% endblock %}
